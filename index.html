@@ -1,0 +1,286 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <!-- Link to Google Fonts -->
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Open+Sans:ital,wght@0,300..800;1,300..800&family=Roboto:ital,wght@0,100..900;1,100..900&display=swap"
+      rel="stylesheet"
+    />
+    <!-- Font Awesome -->
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.2/css/all.min.css"
+    />
+    <!-- Link to External CSS -->
+    <link rel="stylesheet" href="./css/styles.css" />
+    <!-- Link to Favicon Icon -->
+    <link
+      rel="apple-touch-icon"
+      sizes="180x180"
+      href="./favicon_io/apple-touch-icon.png"
+    />
+    <link
+      rel="icon"
+      type="image/png"
+      sizes="32x32"
+      href="./favicon_io/favicon-32x32.png"
+    />
+    <link
+      rel="icon"
+      type="image/png"
+      sizes="16x16"
+      href="./favicon_io/favicon-16x16.png"
+    />
+    <link rel="manifest" href="./favicon_io/site.webmanifest" />
+    <title>Home - WattACar UK</title>
+  </head>
+
+  <body>
+    <!-- Navigation Bar -->
+    <nav class="navbar">
+      <div class="container navbar-flex">
+        <a href="/" aria-label="Logo Home Link">
+          <img src="./images/logo.svg" alt="WattACar UK Logo" />
+        </a>
+        <div class="main-menu-items">
+          <ul class="main-menu-list">
+            <li>
+              <a href="/">Home</a>
+            </li>
+            <li>
+              <a href="./ev_guides.html">EV Guides</a>
+            </li>
+            <li>
+              <a href="./charging.html">Charging</a>
+            </li>
+            <li>
+              <a href="./resources.html">Resources</a>
+            </li>
+            <li>
+              <a href="./tools.html">Tools</a>
+            </li>
+            <li>
+              <a href="./about.html">About Us</a>
+            </li>
+            <li>
+              <a class="tooltip" href="./signin.html" aria-label="Sign In">
+                <i class="fa-solid fa-user"></i>
+                <span class="tooltiptext">Sign In</span>
+              </a>
+            </li>
+          </ul>
+        </div>
+
+        <!-- Mobile Menu -->
+        <div class="mobile-menu">
+          <div
+            class="mobile-menu-toggle"
+            role="button"
+            aria-expanded="false"
+            aria-controls="mobile-menu-items"
+            aria-label="Open Mobile Menu"
+            tabindex="0"
+          >
+            <i class="fas fa-bars fa-2x"></i>
+          </div>
+          <div class="mobile-menu-items" id="mobile-menu-items">
+            <ul class="mobile-menu-list">
+              <li>
+                <a href="/">Home</a>
+              </li>
+              <li>
+                <a href="./ev_guides.html">EV Guides</a>
+              </li>
+              <li>
+                <a href="./charging.html">Charging</a>
+              </li>
+              <li>
+                <a href="./resources.html">Resources</a>
+              </li>
+              <li>
+                <a href="./tools.html">Tools</a>
+              </li>
+              <li>
+                <a href="./about.html">About Us</a>
+              </li>
+              <li>
+                <a href="./signin.html">Sign In</a>
+              </li>
+            </ul>
+          </div>
+        </div>
+      </div>
+    </nav>
+
+    <!-- Hero -->
+    <header class="hero">
+      <div class="hero-banner">
+        <h1>Powering a Sustainable UK</h1>
+        <p>The Ultimate Guide to Electric Mobility</p>
+        <a href="./ev_guides.html" class="btn hero-btn">Get started</a>
+      </div>
+    </header>
+
+    <!-- Secondary CTA Cards -->
+    <section class="section">
+      <div class="section-title">
+        <h2>More to explore...</h2>
+      </div>
+      <div class="section-centre card-centre">
+        <!-- Charging -->
+        <article class="cta-card">
+          <div class="cta-img-container">
+            <img
+              src="./images/cta-charging.jpg"
+              class="cta-img"
+              alt="Charging"
+            />
+          </div>
+          <div class="card-info">
+            <h3>Charging</h3>
+            <p>
+              Learn about EV charging essentials: methods, chargepoint types,
+              speeds, and estimated charging times.
+            </p>
+            <a href="./charging.html" class="btn">Explore</a>
+          </div>
+        </article>
+
+        <!-- Resources -->
+        <article class="cta-card">
+          <div class="cta-img-container">
+            <img
+              src="./images/cta-resources.jpg"
+              class="cta-img"
+              alt="Resources"
+            />
+          </div>
+          <div class="card-info">
+            <h3>Resources</h3>
+            <p>
+              Stay updated with the latest EV news, insightful blogs, and
+              connect with fellow enthusiasts in the WattACar community.
+            </p>
+            <a href="./resources.html" class="btn">Explore</a>
+          </div>
+        </article>
+
+        <!-- Tools -->
+        <article class="cta-card">
+          <div class="cta-img-container">
+            <img src="./images/cta-tools.jpg" class="cta-img" alt="Tools" />
+          </div>
+          <div class="card-info">
+            <h3>Tools</h3>
+            <p>
+              Use interactive tools: calculate EV vs. fuel costs, compare EV
+              models, and locate nearby charging stations with ease.
+            </p>
+            <a href="./tools.html" class="btn">Explore</a>
+          </div>
+        </article>
+
+        <!-- About Us -->
+        <article class="cta-card">
+          <div class="cta-img-container">
+            <img
+              src="./images/cta-about-us.jpg"
+              class="cta-img"
+              alt="About Us"
+            />
+          </div>
+          <div class="card-info">
+            <h3>About Us</h3>
+            <p>
+              Discover our mission, values, and commitment to sustainable
+              mobility. Contact us through our get in touch form.
+            </p>
+            <a href="./about.html" class="btn">Explore</a>
+          </div>
+        </article>
+      </div>
+    </section>
+
+    <!-- Newsletter -->
+    <section class="section newsletter">
+      <div class="container newsletter-flex">
+        <h2>Subscribe To Our Newsletter</h2>
+        <p>
+          Stay updated with the latest news, insights and incentives about
+          Electric Vehicles. Join our newsletter community today!
+        </p>
+        <form id="email-subscription-form">
+          <input
+            type="text"
+            name="email"
+            id="email"
+            placeholder="Enter your email"
+          />
+          <button type="submit" class="btn">Subscribe</button>
+          <!-- Inline CSS -->
+          <div style="padding-top: 2rem">
+            <span id="submit-message"></span>
+          </div>
+        </form>
+      </div>
+    </section>
+
+    <!-- Social -->
+    <section class="section social">
+      <div class="container">
+        <p>
+          Follow us on social media for updates and news about Electric
+          Vehicles.
+        </p>
+        <div class="social-icons">
+          <a href="https://x.com/" target="_blank" aria-label="Follow us on X">
+            <i class="fa-brands fa-x-twitter fa-2x"></i>
+          </a>
+          <a
+            href="https://www.instagram.com/"
+            target="_blank"
+            aria-label="Follow us on Instagram"
+          >
+            <i class="fa-brands fa-instagram fa-2x"></i>
+          </a>
+          <a
+            href="https://www.linkedin.com/"
+            target="_blank"
+            aria-label="Follow us on LinkedIn"
+          >
+            <i class="fa-brands fa-linkedin fa-2x"></i>
+          </a>
+        </div>
+      </div>
+    </section>
+
+    <!-- Footer -->
+    <footer class="footer">
+      <div class="container footer-flex">
+        <ul>
+          <li>
+            <a href="/">Home</a>
+          </li>
+          <li>
+            <a href="./coming_soon.html">Privacy Policy</a>
+          </li>
+          <li>
+            <a href="./coming_soon.html">Site Map</a>
+          </li>
+          <li>
+            <a href="./coming_soon.html">Contact Us</a>
+          </li>
+        </ul>
+        <p>&#169; <span id="date"></span> WattACar UK. All Rights Reserved.</p>
+      </div>
+    </footer>
+
+    <!-- Link to JavaScript files -->
+    <script src="./js/scripts.js"></script>
+    <script src="./js/email_validation.js"></script>
+  </body>
+</html>

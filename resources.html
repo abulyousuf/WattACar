@@ -1,0 +1,226 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <!-- Link to Google Fonts -->
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Open+Sans:ital,wght@0,300..800;1,300..800&family=Roboto:ital,wght@0,100..900;1,100..900&display=swap"
+      rel="stylesheet"
+    />
+    <!-- Font Awesome -->
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.2/css/all.min.css"
+    />
+    <!-- Link to External CSS -->
+    <link rel="stylesheet" href="./css/styles.css" />
+    <!-- Link to Favicon Icon -->
+    <link
+      rel="apple-touch-icon"
+      sizes="180x180"
+      href="./favicon_io/apple-touch-icon.png"
+    />
+    <link
+      rel="icon"
+      type="image/png"
+      sizes="32x32"
+      href="./favicon_io/favicon-32x32.png"
+    />
+    <link
+      rel="icon"
+      type="image/png"
+      sizes="16x16"
+      href="./favicon_io/favicon-16x16.png"
+    />
+    <link rel="manifest" href="./favicon_io/site.webmanifest" />
+    <title>Resources - WattACar UK</title>
+  </head>
+
+  <body>
+    <!-- Navigation Bar -->
+    <nav class="navbar">
+      <div class="container navbar-flex">
+        <a href="/" aria-label="Logo Home Link">
+          <img src="./images/logo.svg" alt="WattACar UK Logo" />
+        </a>
+        <div class="main-menu-items">
+          <ul class="main-menu-list">
+            <li>
+              <a href="/">Home</a>
+            </li>
+            <li>
+              <a href="./ev_guides.html">EV Guides</a>
+            </li>
+            <li>
+              <a href="./charging.html">Charging</a>
+            </li>
+            <li>
+              <a href="./resources.html">Resources</a>
+            </li>
+            <li>
+              <a href="./tools.html">Tools</a>
+            </li>
+            <li>
+              <a href="./about.html">About Us</a>
+            </li>
+            <li>
+              <a class="tooltip" href="./signin.html" aria-label="Sign In">
+                <i class="fa-solid fa-user"></i>
+                <span class="tooltiptext">Sign In</span>
+              </a>
+            </li>
+          </ul>
+        </div>
+
+        <!-- Mobile Menu -->
+        <div class="mobile-menu">
+          <div
+            class="mobile-menu-toggle"
+            role="button"
+            aria-expanded="false"
+            aria-controls="mobile-menu-items"
+            aria-label="Open Mobile Menu"
+            tabindex="0"
+          >
+            <i class="fas fa-bars fa-2x"></i>
+          </div>
+          <div class="mobile-menu-items" id="mobile-menu-items">
+            <ul class="mobile-menu-list">
+              <li>
+                <a href="/">Home</a>
+              </li>
+              <li>
+                <a href="./ev_guides.html">EV Guides</a>
+              </li>
+              <li>
+                <a href="./charging.html">Charging</a>
+              </li>
+              <li>
+                <a href="./resources.html">Resources</a>
+              </li>
+              <li>
+                <a href="./tools.html">Tools</a>
+              </li>
+              <li>
+                <a href="./about.html">About Us</a>
+              </li>
+              <li>
+                <a href="./signin.html">Sign In</a>
+              </li>
+            </ul>
+          </div>
+        </div>
+      </div>
+    </nav>
+
+    <!-- Header -->
+    <header class="header-resources">
+      <h1>Resources</h1>
+    </header>
+
+    <!-- Main -->
+    <main class="clearfix">
+      <div class="info">
+        <h2>
+          Stay informed with the latest EV news and insightful blogs, and
+          connect with fellow electric vehicle enthusiasts.
+        </h2>
+      </div>
+
+      <div class="section-centre">
+        <!-- Latest News -->
+        <section class="component-card">
+          <div class="component-img-container">
+            <img
+              class="component-img"
+              src="./images/resources01.png"
+              alt="Latest News"
+            />
+            <span class="component-icon">
+              <i class="fa-solid fa-newspaper fa-fw"></i>
+            </span>
+          </div>
+          <div class="component-info">
+            <h3>Latest News</h3>
+            <p>
+              Get the most up-to-date stories and developments from electric
+              mobility and innovation.
+            </p>
+            <a href="./coming_soon.html" class="btn component-btn">Explore</a>
+          </div>
+        </section>
+
+        <!-- Blogs -->
+        <section class="component-card">
+          <div class="component-img-container">
+            <img
+              class="component-img"
+              src="./images/resources02.jpg"
+              alt="Blogs"
+            />
+            <span class="component-icon">
+              <i class="fa-solid fa-blog fa-fw"></i>
+            </span>
+          </div>
+          <div class="component-info">
+            <h3>Blogs</h3>
+            <p>
+              Discover expert tips, insights, and stories about electric
+              vehicles, ownership, and sustainable driving habits.
+            </p>
+            <a href="./coming_soon.html" class="btn component-btn">Explore</a>
+          </div>
+        </section>
+
+        <!-- Community -->
+        <section class="component-card">
+          <div class="component-img-container">
+            <img
+              class="component-img"
+              src="./images/resources03.png"
+              alt="Community"
+            />
+            <span class="component-icon">
+              <i class="fa-solid fa-people-group fa-fw"></i>
+            </span>
+          </div>
+          <div class="component-info">
+            <h3>Community</h3>
+            <p>
+              Join discussions, share experiences, and connect with other EV
+              drivers in a supportive environment.
+            </p>
+            <a href="./coming_soon.html" class="btn component-btn">Explore</a>
+          </div>
+        </section>
+      </div>
+    </main>
+
+    <!-- Footer -->
+    <footer class="footer">
+      <div class="container footer-flex">
+        <ul>
+          <li>
+            <a href="/">Home</a>
+          </li>
+          <li>
+            <a href="./coming_soon.html">Privacy Policy</a>
+          </li>
+          <li>
+            <a href="./coming_soon.html">Site Map</a>
+          </li>
+          <li>
+            <a href="./coming_soon.html">Contact Us</a>
+          </li>
+        </ul>
+        <p>&#169; <span id="date"></span> WattACar UK. All Rights Reserved.</p>
+      </div>
+    </footer>
+
+    <!-- Link to JavaScript file -->
+    <script src="./js/scripts.js"></script>
+  </body>
+</html>

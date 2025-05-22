@@ -1,0 +1,264 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <!-- Link to Google Fonts -->
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Open+Sans:ital,wght@0,300..800;1,300..800&family=Roboto:ital,wght@0,100..900;1,100..900&display=swap"
+      rel="stylesheet"
+    />
+    <!-- Font Awesome -->
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.2/css/all.min.css"
+    />
+    <!-- Link to External CSS -->
+    <link rel="stylesheet" href="./css/styles.css" />
+    <!-- Link to Favicon Icon -->
+    <link
+      rel="apple-touch-icon"
+      sizes="180x180"
+      href="./favicon_io/apple-touch-icon.png"
+    />
+    <link
+      rel="icon"
+      type="image/png"
+      sizes="32x32"
+      href="./favicon_io/favicon-32x32.png"
+    />
+    <link
+      rel="icon"
+      type="image/png"
+      sizes="16x16"
+      href="./favicon_io/favicon-16x16.png"
+    />
+    <link rel="manifest" href="./favicon_io/site.webmanifest" />
+    <title>About Us - WattACar UK</title>
+  </head>
+
+  <body>
+    <!-- Navigation Bar -->
+    <nav class="navbar">
+      <div class="container navbar-flex">
+        <a href="/" aria-label="Logo Home Link">
+          <img src="./images/logo.svg" alt="WattACar UK Logo" />
+        </a>
+        <div class="main-menu-items">
+          <ul class="main-menu-list">
+            <li>
+              <a href="/">Home</a>
+            </li>
+            <li>
+              <a href="./ev_guides.html">EV Guides</a>
+            </li>
+            <li>
+              <a href="./charging.html">Charging</a>
+            </li>
+            <li>
+              <a href="./resources.html">Resources</a>
+            </li>
+            <li>
+              <a href="./tools.html">Tools</a>
+            </li>
+            <li>
+              <a href="./about.html">About Us</a>
+            </li>
+            <li>
+              <a class="tooltip" href="./signin.html" aria-label="Sign In">
+                <i class="fa-solid fa-user"></i>
+                <span class="tooltiptext">Sign In</span>
+              </a>
+            </li>
+          </ul>
+        </div>
+
+        <!-- Mobile Menu -->
+        <div class="mobile-menu">
+          <div
+            class="mobile-menu-toggle"
+            role="button"
+            aria-expanded="false"
+            aria-controls="mobile-menu-items"
+            aria-label="Open Mobile Menu"
+            tabindex="0"
+          >
+            <i class="fas fa-bars fa-2x"></i>
+          </div>
+          <div class="mobile-menu-items" id="mobile-menu-items">
+            <ul class="mobile-menu-list">
+              <li>
+                <a href="/">Home</a>
+              </li>
+              <li>
+                <a href="./ev_guides.html">EV Guides</a>
+              </li>
+              <li>
+                <a href="./charging.html">Charging</a>
+              </li>
+              <li>
+                <a href="./resources.html">Resources</a>
+              </li>
+              <li>
+                <a href="./tools.html">Tools</a>
+              </li>
+              <li>
+                <a href="./about.html">About Us</a>
+              </li>
+              <li>
+                <a href="./signin.html">Sign In</a>
+              </li>
+            </ul>
+          </div>
+        </div>
+      </div>
+    </nav>
+
+    <!-- Header -->
+    <header class="header-about-us">
+      <h1>About Us</h1>
+    </header>
+
+    <!-- Main -->
+    <main>
+      <!-- Our Mission -->
+      <section class="section about-us">
+        <div class="wrapper-about-us about-us-flex">
+          <div class="about-img">
+            <img
+              class="about-photo"
+              src="./images/mission.jpg"
+              alt="Our Mission"
+            />
+          </div>
+          <div>
+            <h2>Our Mission</h2>
+            <p>
+              At <span style="font-weight: 600">WattACar UK</span>, we aim to
+              accelerate the adoption of electric vehicles by providing
+              easy-to-access resources, expert reviews, and interactive tools
+              that empower consumers to make informed decisions for a greener
+              future.
+            </p>
+          </div>
+        </div>
+      </section>
+
+      <!-- Our Values -->
+      <section class="section container about-us">
+        <div class="wrapper-about-us">
+          <h2>Our Values</h2>
+        </div>
+        <div class="wrapper-about-us grid grid--2-cols grid--center-v">
+          <!-- Sustainability -->
+          <div>
+            <p class="values-number">01</p>
+            <h3>Sustainability</h3>
+            <p>
+              We believe in building a cleaner, more sustainable world by
+              promoting electric mobility.
+            </p>
+          </div>
+          <div class="step-img-box">
+            <img
+              class="step-img"
+              src="./images/sustainability.jpg"
+              alt="Sustainability"
+            />
+          </div>
+
+          <!-- Innovation -->
+          <div class="step-img-box">
+            <img
+              class="step-img"
+              src="./images/innovation.jpg"
+              alt="Innovation"
+            />
+          </div>
+          <div>
+            <p class="values-number">02</p>
+            <h3>Innovation</h3>
+            <p>
+              We stay ahead by providing cutting-edge insights on electric
+              vehicle technologies.
+            </p>
+          </div>
+
+          <!-- Community -->
+          <div>
+            <p class="values-number">03</p>
+            <h3>Community</h3>
+            <p>
+              We connect like-minded EV enthusiasts to share experiences and
+              support each other.
+            </p>
+          </div>
+          <div class="step-img-box">
+            <img
+              class="step-img"
+              src="./images/community.jpg"
+              alt="Community"
+            />
+          </div>
+        </div>
+      </section>
+
+      <!-- Get in touch -->
+      <section class="section wrapper-about-us">
+        <div class="contact-form card-contact">
+          <form id="contact-form" class="form-contact">
+            <h2>Get In Touch</h2>
+            <div class="form-control-contact">
+              <label for="name">Name</label>
+              <input type="text" id="name" placeholder="Enter name" />
+              <small>Error message</small>
+            </div>
+            <div class="form-control-contact">
+              <label for="email">Email Address</label>
+              <input type="text" id="email" placeholder="Enter email address" />
+              <small>Error message</small>
+            </div>
+            <div class="form-control-contact">
+              <label for="message">Message</label>
+              <textarea
+                name="message"
+                id="message"
+                placeholder="Enter message"
+                rows="5"
+              ></textarea>
+              <small>Error message</small>
+            </div>
+            <button type="submit" class="btn">Submit</button>
+          </form>
+        </div>
+      </section>
+    </main>
+
+    <!-- Footer -->
+    <footer class="footer">
+      <div class="container footer-flex">
+        <ul>
+          <li>
+            <a href="/">Home</a>
+          </li>
+          <li>
+            <a href="./coming_soon.html">Privacy Policy</a>
+          </li>
+          <li>
+            <a href="./coming_soon.html">Site Map</a>
+          </li>
+          <li>
+            <a href="./coming_soon.html">Contact Us</a>
+          </li>
+        </ul>
+        <p>&#169; <span id="date"></span> WattACar UK. All Rights Reserved.</p>
+      </div>
+    </footer>
+
+    <!-- Link to JavaScript file -->
+    <script src="./js/scripts.js"></script>
+    <script src="./js/contact_validation.js"></script>
+  </body>
+</html>

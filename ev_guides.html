@@ -1,0 +1,293 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <!-- Link to Google Fonts -->
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Open+Sans:ital,wght@0,300..800;1,300..800&family=Roboto:ital,wght@0,100..900;1,100..900&display=swap"
+      rel="stylesheet"
+    />
+    <!-- Font Awesome -->
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.2/css/all.min.css"
+    />
+    <!-- Link to External CSS -->
+    <link rel="stylesheet" href="./css/styles.css" />
+    <!-- Link to Favicon Icon -->
+    <link
+      rel="apple-touch-icon"
+      sizes="180x180"
+      href="./favicon_io/apple-touch-icon.png"
+    />
+    <link
+      rel="icon"
+      type="image/png"
+      sizes="32x32"
+      href="./favicon_io/favicon-32x32.png"
+    />
+    <link
+      rel="icon"
+      type="image/png"
+      sizes="16x16"
+      href="./favicon_io/favicon-16x16.png"
+    />
+    <link rel="manifest" href="./favicon_io/site.webmanifest" />
+    <title>EV Guides - WattACar UK</title>
+  </head>
+
+  <body>
+    <!-- Navigation Bar -->
+    <nav class="navbar">
+      <div class="container navbar-flex">
+        <a href="/" aria-label="Logo Home Link">
+          <img src="./images/logo.svg" alt="WattACar UK Logo" />
+        </a>
+        <div class="main-menu-items">
+          <ul class="main-menu-list">
+            <li>
+              <a href="/">Home</a>
+            </li>
+            <li>
+              <a href="./ev_guides.html">EV Guides</a>
+            </li>
+            <li>
+              <a href="./charging.html">Charging</a>
+            </li>
+            <li>
+              <a href="./resources.html">Resources</a>
+            </li>
+            <li>
+              <a href="./tools.html">Tools</a>
+            </li>
+            <li>
+              <a href="./about.html">About Us</a>
+            </li>
+            <li>
+              <a class="tooltip" href="./signin.html" aria-label="Sign In">
+                <i class="fa-solid fa-user"></i>
+                <span class="tooltiptext">Sign In</span>
+              </a>
+            </li>
+          </ul>
+        </div>
+
+        <!-- Mobile Menu -->
+        <div class="mobile-menu">
+          <div
+            class="mobile-menu-toggle"
+            role="button"
+            aria-expanded="false"
+            aria-controls="mobile-menu-items"
+            aria-label="Open Mobile Menu"
+            tabindex="0"
+          >
+            <i class="fas fa-bars fa-2x"></i>
+          </div>
+          <div class="mobile-menu-items" id="mobile-menu-items">
+            <ul class="mobile-menu-list">
+              <li>
+                <a href="/">Home</a>
+              </li>
+              <li>
+                <a href="./ev_guides.html">EV Guides</a>
+              </li>
+              <li>
+                <a href="./charging.html">Charging</a>
+              </li>
+              <li>
+                <a href="./resources.html">Resources</a>
+              </li>
+              <li>
+                <a href="./tools.html">Tools</a>
+              </li>
+              <li>
+                <a href="./about.html">About Us</a>
+              </li>
+              <li>
+                <a href="./signin.html">Sign In</a>
+              </li>
+            </ul>
+          </div>
+        </div>
+      </div>
+    </nav>
+
+    <!-- Header -->
+    <header class="header-ev-guides">
+      <h1>EV Guides</h1>
+    </header>
+
+    <!-- Main Body -->
+    <main>
+      <!-- What is an EV? -->
+      <section style="background-color: #eef4f6" class="section ev-guides">
+        <div class="wrapper-ev-guides ev-guides-flex">
+          <div>
+            <h2>What is an EV?</h2>
+            <p>
+              Electric vehicles (EVs) run on electricity and an electric motor
+              instead of traditional fuel-powered engines. They are almost
+              silent because there is no clutch or gears, making them ideal for
+              driving in cities. Because they are powered by electricity, EVs
+              emit zero 'tailpipe' emissions.
+            </p>
+          </div>
+          <img src="./images/ev01.jpg" alt="Electric Car" />
+        </div>
+      </section>
+
+      <!-- Types of EVs -->
+      <section style="background-color: #fef1e7" class="section ev-guides">
+        <div class="wrapper-ev-guides ev-guides-flex">
+          <img src="./images/ev02.jpg" alt="Electric Car" />
+          <div>
+            <h2>Types of EVs</h2>
+            <p>EVs come in three main categories:</p>
+            <ul
+              style="list-style-position: outside; list-style-type: square"
+              class="custom-marker"
+            >
+              <li>
+                <span style="font-weight: 700"
+                  >Battery Electric Vehicles (BEVs)</span
+                >: Fully electric, powered by rechargeable batteries, and
+                produce zero tailpipe emissions.
+              </li>
+              <li>
+                <span style="font-weight: 700"
+                  >Plug-in Hybrid Electric Vehicles (PHEVs)</span
+                >: Combine an electric motor with a petrol or diesel engine,
+                allowing for low emissions depending on the power source.
+              </li>
+              <li>
+                <span style="font-weight: 700"
+                  >Hybrid Electric Vehicles (HEVs)</span
+                >: Use an internal combustion engine (ICE) and an electric
+                motor, improving fuel efficiency and reducing emissions.
+              </li>
+            </ul>
+          </div>
+        </div>
+      </section>
+
+      <!-- Benefits of EVs -->
+      <section style="background-color: #eef4f6" class="section ev-guides">
+        <div class="wrapper-ev-guides ev-guides-flex">
+          <div>
+            <h2>Benefits of EVs</h2>
+            <p>
+              There are lots of benefits of using an electric vehicle instead of
+              a petrol or diesel one. These are:
+            </p>
+            <ul
+              style="list-style-position: outside; list-style-type: square"
+              class="custom-marker"
+            >
+              <li>Cleaner environment</li>
+              <li>No congestion charge</li>
+              <li>Lower running costs</li>
+              <li>Renewable electricity tariffs</li>
+              <li>Better driving experience</li>
+              <li>Government funding</li>
+              <li>Free parking</li>
+              <li>Reduced noise pollution</li>
+              <li>Increased resale value</li>
+            </ul>
+          </div>
+          <img src="./images/benefits.png" alt="Benefits" />
+        </div>
+      </section>
+
+      <!-- EV Grants -->
+      <section style="background-color: #fef1e7" class="section ev-guides">
+        <div class="wrapper-ev-guides">
+          <h2>EV Grants</h2>
+          <p>
+            There are a few schemes that help people switch to driving electric
+            cars. Government grants include help with charging points at home
+            and at work and buying a new EV.
+          </p>
+          <p style="margin-top: 1rem">
+            Currently, the Office for Zero Emission Vehicles (OZEV) is offering
+            four grants to help fund electric cars and EV chargers:
+          </p>
+          <ul
+            style="list-style-position: outside; list-style-type: square"
+            class="custom-marker custom-link"
+          >
+            <li>
+              <a
+                href="https://www.gov.uk/guidance/electric-vehicle-chargepoint-and-infrastucture-grant-guidance-for-installers"
+                target="_blank"
+                ><em
+                  ><strong
+                    >Electric Vehicle Homecharge Scheme (EVHS)</strong
+                  ></em
+                ></a
+              >
+              - grant contributing to the cost of charging point installation at
+              home.
+            </li>
+            <li>
+              <a
+                href="https://www.gov.uk/guidance/workplace-charging-scheme-guidance-for-applicants"
+                target="_blank"
+                ><em><strong>Workplace Charging Scheme (WCS)</strong></em></a
+              >
+              - helps businesses with the upfront cost of charger installation.
+            </li>
+            <li>
+              <a
+                href="https://www.gov.uk/government/publications/grants-for-local-authorities-to-provide-residential-on-street-chargepoints"
+                target="_blank"
+                ><em
+                  ><strong
+                    >On-street Residential Chargepoint Scheme (ORCS)</strong
+                  ></em
+                ></a
+              >
+              - support for local authorities looking to install on-street
+              residential car chargers.
+            </li>
+          </ul>
+          <h3 style="margin-top: 2rem">Plug-in Car Grant (PICG)</h3>
+          <p class="custom-link">
+            This grant is available through car manufacturers and dealerships,
+            which pass the discount on to customers.
+            <a href="https://www.gov.uk/plug-in-vehicle-grants" target="_blank"
+              ><em><strong>Learn more about it</strong></em></a
+            >.
+          </p>
+        </div>
+      </section>
+    </main>
+
+    <!-- Footer -->
+    <footer class="footer">
+      <div class="container footer-flex">
+        <ul>
+          <li>
+            <a href="/">Home</a>
+          </li>
+          <li>
+            <a href="./coming_soon.html">Privacy Policy</a>
+          </li>
+          <li>
+            <a href="./coming_soon.html">Site Map</a>
+          </li>
+          <li>
+            <a href="./coming_soon.html">Contact Us</a>
+          </li>
+        </ul>
+        <p>&#169; <span id="date"></span> WattACar UK. All Rights Reserved.</p>
+      </div>
+    </footer>
+
+    <!-- Link to JavaScript file -->
+    <script src="./js/scripts.js"></script>
+  </body>
+</html>
